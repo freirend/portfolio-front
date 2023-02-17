@@ -112,6 +112,7 @@ main{
 
     .buttons .btn{
         font-size: 90%;
+        width: 320px;
     }
 
     .profile-pic{
