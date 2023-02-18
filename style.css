@@ -15,8 +15,6 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
     background-color: black;
 }
 
@@ -124,12 +122,14 @@ footer{
 
     .conteudo{
         flex-direction: column-reverse;
+        height: 100vh;
     }
 
     .sobre{
+        height: 100%;
         max-width: 300px;
         gap: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .buttons{
@@ -147,6 +147,10 @@ footer{
 
     .profile-pic{
         max-width: 300px;
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    footer{
+        margin-top: 20px;
     }
 }
