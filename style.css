@@ -18,6 +18,24 @@ body{
     background-color: black;
 }
 
+.cabecalho__menu{
+    display: flex;
+    margin: 4% 20%;
+    gap: 36px;
+    font-weight: 600;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor01);
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho__menu__link:hover{
+    color: white;
+}
+
 main{
     background-color: black;
     color: white;
@@ -25,9 +43,7 @@ main{
 
 .conteudo{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 36.8px);
+    margin: 7.5% 20%;
     gap: 40px;
 }
 
@@ -116,20 +132,17 @@ footer{
     }
 
     body{
-        display: block;
         background-color: black;
     }
 
     .conteudo{
         flex-direction: column-reverse;
-        height: 100vh;
     }
 
     .sobre{
         height: 100%;
         max-width: 300px;
         gap: 25px;
-        margin-bottom: 20px;
     }
 
     .buttons{
@@ -147,10 +160,5 @@ footer{
 
     .profile-pic{
         max-width: 300px;
-        margin-top: 20px;
-    }
-
-    footer{
-        margin-top: 20px;
     }
 }
