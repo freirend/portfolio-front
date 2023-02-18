@@ -131,12 +131,21 @@ footer{
         font-size: 80%;
     }
 
+    .cabecalho__menu{
+        margin: 4% 10%;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 15px;
+    }
+
     body{
         background-color: black;
     }
 
     .conteudo{
         flex-direction: column-reverse;
+        margin: 7.5% 10%;
     }
 
     .sobre{
