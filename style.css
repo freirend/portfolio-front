@@ -14,9 +14,12 @@
     --cor01: #d8af47;
 }
 
-main{
+body{
     width: 100vw;
     height: 100vh;
+}
+
+main{
     background-color: black;
     color: white;
     display: flex;
@@ -82,8 +85,6 @@ main{
 
 @media (max-width: 960px) {
     html{
-        width: 100vw;
-        height: 100vh;
         font-size: 80%;
     }
 
@@ -93,13 +94,12 @@ main{
 
     main{
         flex-direction: column-reverse;
-        padding-top: 100px;
     }
 
     .sobre{
         max-width: 320px;
         gap: 25px;
-        padding-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .buttons{
@@ -117,5 +117,6 @@ main{
 
     .profile-pic{
         max-width: 300px;
+        margin-top: 20px;
     }
 }
