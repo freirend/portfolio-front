@@ -15,8 +15,11 @@
 }
 
 body{
+    display: flex;
     width: 100vw;
     height: 100vh;
+    background-color: black;
+    justify-content: center;
 }
 
 main{
@@ -89,6 +92,7 @@ main{
     }
 
     body{
+        display: block;
         background-color: black;
     }
 
@@ -99,7 +103,7 @@ main{
     .sobre{
         max-width: 320px;
         gap: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .buttons{
@@ -117,6 +121,6 @@ main{
 
     .profile-pic{
         max-width: 300px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
